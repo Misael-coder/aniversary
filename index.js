@@ -16,7 +16,7 @@ function checkCode() {
     '9 de julio': 'codigo-uno', // nuestro primer beso
     'En el parque': 'codigo-dos', //donde fue nuestro primer beso
     '2020': 'codigo-tres', // año que nos conosimos
-    '20 de septriembre': 'codigo-cuatro' // aniversario
+    '20 de septiembre': 'codigo-cuatro' // aniversario
   };
 
   if (codes.hasOwnProperty(inputCode)) {
