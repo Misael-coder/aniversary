@@ -8,6 +8,9 @@ function contentvisible(){
   contetPrincial.style.display = 'none'
 }
 
+  document.getElementById("background-song").play();
+
+
 function checkCode() {
   const inputCode = document.querySelector('#input-codigo').value.trim();
   const articles = document.querySelectorAll('article');
@@ -16,7 +19,8 @@ function checkCode() {
     '9 de julio': 'codigo-uno', // nuestro primer beso
     'En el parque': 'codigo-dos', //donde fue nuestro primer beso
     '2020': 'codigo-tres', // año que nos conosimos
-    '20 de septiembre': 'codigo-cuatro' // aniversario
+    '20 de septiembre': 'codigo-cuatro',// aniversario
+    'ti cielo': 'codigo-cinco', // nuestro primer beso
   };
 
   if (codes.hasOwnProperty(inputCode)) {

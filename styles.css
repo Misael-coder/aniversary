@@ -123,3 +123,22 @@ article {
     height: 200vh;
     text-align: left;
 }
+.codigo-cinco{
+  background-image: url(https://historia.nationalgeographic.com.es/medio/2019/07/24/van-gogh-pinto-la-fantastica-noche-estrellada-en-1889_7295cd9d_1200x1081.jpg);
+  color: black;
+  text-align: justify;
+  padding-top: 5%;
+}
+.codesx{
+  font-size: x-large;
+  font-family:  Helvetica, sans-serif;
+}
+.contacrilic{
+  height: 100vh;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
